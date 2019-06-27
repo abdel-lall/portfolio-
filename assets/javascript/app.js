@@ -5,8 +5,13 @@ $(window).scroll(function(){
     $('.custom-toggler .navbar-toggler-icon').toggleClass('scrolledti', $(this).scrollTop() > 50);
     
 });
-
-// $("#project1").on("click",function(){
-   
-//     $("#project1").toggleClass('exp');
-// })
+$('#myemailtext,#myemail').click(function(e){
+    e.preventDefault();
+     $("#myemailtext").toggle();
+     $("#myemail").toggle();
+});
+$('#mynumbertext,#mynumber').click(function(e){
+    e.preventDefault();
+     $("#mynumbertext").toggle();
+     $("#mynumber").toggle();
+})

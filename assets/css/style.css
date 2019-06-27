@@ -157,13 +157,13 @@
       min-height: 280px;
       height: auto; 
       color: #00327f;
-      font-size: 1rem;
+      font-size: 30px;
       border: 2px #00327f solid;
   }
   
-  .back{
+  /* .back{
     background: #fff;  
-  }
+  } */
   
   .front:after{
       position: absolute;
@@ -186,6 +186,7 @@
   }
   
   .back{
+    background-image: linear-gradient(white,#00327f);
       position: absolute;
       top: 0;
       left: 0;
@@ -268,20 +269,49 @@
     
 }
 
- #social{
+#social{
     margin-top: 30px;
     font-size: 70px;
     text-decoration: none;
+    overflow: hidden;
 }
 .ico{
     color: #00327f;
     display: inline-block;
+    text-decoration: none;
 }
 .ico:hover{
     border-bottom: 2px #00327f solid;
 }
 .ico:link { color: #00327f;}
 .ico:visited { color: #00327f; }
+
+
+#mynumbertext{
+    font-size: 20px;
+    display: none;
+    text-decoration: none;
+}
+#myemailtext{
+    font-size: 20px;
+    display: none;
+    text-decoration: none;
+}
+.icoport{
+    display: inline-block;
+    font-size: 50px;
+    margin: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #00327f;
+}
+.icoport:link,.icoport:active{
+    color: #00327f;
+}
+.icoport:hover{
+    color: white;
+}
+
 /* ------------------------------------ */
 
 @media only screen and (max-width: 720px) {
