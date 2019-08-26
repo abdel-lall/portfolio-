@@ -95,12 +95,20 @@
     margin-top: 60px;
 }
 #rowportfolio{
-    padding-top: 250px;
-    padding-right: 10px;
+    padding-top: 50px;
+    /* padding-right: 10px;
     padding-left: 10px;
-    padding-bottom: 30px;
-    height: 600px;
-    overflow: auto;
+    padding-bottom: 30px;  */
+    height: 45vh;
+    /* overflow: auto; */
+}
+#row2portfolio{
+    padding-top: 20px;
+    /* padding-right: auto; */
+    /* padding-left: 200px; */
+    /* padding-bottom: 30px; */
+    height: 45vh;
+    /* overflow: auto; */
 }
 .col-lg{
    
@@ -130,7 +138,14 @@
     background-image: url(../images/giphy.png);
     background-size: cover;
 }
-
+#project4{
+    background-image: url(../images/Untitled.png);
+    background-size: cover;
+}
+#project5{
+    background-image: url(../images/eat-da-burger.png);
+    background-size: cover;
+}
 
 /* ---------------------------- */
 
@@ -377,10 +392,15 @@
     background-image: url(../images/bg2-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: visible;
+    padding-bottom: 20px;
+    height: auto;
+    
 }
-.col-lg{
+.col-lg-4{
     width: 100%;
     margin: 0 ;
+    margin-top: 20px;
     padding: 0px;
   }
 #rowportfolio{
@@ -388,11 +408,17 @@
     padding-bottom: 5px;
     padding-right: 5px;
     padding-left: 5px;
-    height: 915px;
-    overflow: auto;
-}
-#portfolio{
     height: auto;
+    /* overflow: auto; */
+}
+#row2portfolio{
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: auto;
+    /* overflow: auto; */
 }
 }
 
